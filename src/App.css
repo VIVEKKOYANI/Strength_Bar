@@ -54,8 +54,42 @@
 .underbox{
   width: 262px;
   height: 126px;
-  background-image: linear-gradient(to right,#FC5D73, #FF993F); 
-  border-radius: 10px;
+  background-image: linear-gradient(to right,#FC5D73, #FF993F);
+  border-radius: 10px 10px 0 0; 
+}
+
+.subclass{
+  display: flex; 
+  justify-content: flex-end;
+}
+
+.btnclose{
+  width: 10px;
+  height: 10px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: flex-end;
+  margin-right: 14px;
+  margin-top: 10px;
+}
+
+.conta{
+  margin-left: 12px;
+  font-size: 16px;
+  color: aliceblue;
+  font-family: 'Comfortaa, Bold';
+}
+
+.desc{
+  margin-top: 12px;
+  margin-left: 12px;
+  font-size: 14px;
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Comfortaa, Regular';
 }
 
 .progressbox{
@@ -65,5 +99,28 @@
 }
 
 .finishbtnbox{
-  
+  width: 262px;
+  height: 67px;
+  background-image: linear-gradient(to right,#FC5D73, #FF993F);
+  border-radius: 0 0 10px 10px;
+  display: flex; 
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btnfinish{
+  width: 82px;
+  height: 30px;
+  display: flex;
+  background-color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  justify-items: flex-end;
+  margin-right: 14px;
+}
+
+.progressboxline{
+  display: flex;
 }
